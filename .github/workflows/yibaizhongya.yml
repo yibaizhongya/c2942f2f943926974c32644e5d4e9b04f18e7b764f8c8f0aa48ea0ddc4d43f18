@@ -1,19 +1,20 @@
 name: yibaizhongya
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
-jobs:  # 5074
+    - cron: '52 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yibaizhongya
         env:
-          q725: ${{ secrets.q725 }}
+          e94: ${{ secrets.e94 }}
         run: |
-          echo $q725 | jq -r .vcb701 | /bin/bash
-          echo $jhrb12900 | jq -r .ruq49 | /bin/bash
-          echo $dnq83292 | jq -r .orchj21 | /bin/bash
+          echo $e94 | jq -r .z5065 | /bin/bash
+          echo $mxwg4 | jq -r .x5 | /bin/bash
+          echo $rueq2565 | jq -r .j00 | /bin/bash
+          echo $jr41 | jq -r .w70450 | /bin/bash
 
